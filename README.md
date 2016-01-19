@@ -1,3 +1,297 @@
-# Bitcoins-Vision
-Bitcoins Vision<br>
-Git for http://bitcoins.vision
+<!DOCTYPE html>
+<html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+    <meta charset="UTF-8">
+    <title>Bitcoins Vision</title>
+    <meta name="description" content="Bitcoin Information and Resources">
+    <meta name="color:Header Text" content="#333">
+    <meta name="color:Text" content="#333">
+    <meta name="color:Link" content="#999">
+    <meta name="color:Navbar Icons" content="#333">
+    <meta name="color:Navbar Background" content="#FFF">
+    <meta name="color:Menu Background" content="#FFF">
+    <meta name="if:Show Title" content="1">
+    <meta name="if:Show Description" content="1">
+    <meta name="if:Show Social" content="1">
+    <meta name="if:Show Title In Navbar" content="1">
+    <meta name="if:Show Search" content="1">
+    <meta name="if:Show Notes" content="1">
+    <meta name="if:Show Like Button" content="1">
+    <meta name="if:Show Reblog Button" content="1">
+    <meta name="if:Show Sharing Options" content="1">
+    <meta name="if:Load More Button" content="0">
+    <meta name="if:Infinite Scroll" content="0">
+    <meta name="if:Full Width Photos" content="1">
+    <meta name="if:Fixed Header Background" content="0">
+    <meta name="if:Show RSS" content="1">
+    <meta name="text:Video Max Width" content="960px">
+    <meta name="text:Google Web Font" content="">
+    <meta name="text:Google Analytics ID" content="">
+    <meta name="text:Disqus Shortname" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">figure {margin: 0;}</style>
+<link rel="shortcut icon" href="/web/20150801043811im_/http://38.media.tumblr.com/avatar_d6f83595c59b_128.png">
+    <link rel="apple-touch-icon" href="http://38.media.tumblr.com/avatar_d6f83595c59b_128.png">
+    <link rel="alternate" type="application/rss+xml" href="http://bitcoins.vision/rss">
+    <link href="/web/20150801043811cs_/http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href='/web/20150801043811cs_/http://fonts.googleapis.com/css?family=Open%20Sans' rel='stylesheet' type='text/css'>
+    <link href="/web/20150801043811cs_/http://static.tumblr.com/7esz91z/uVAn5wo0l/main.min.css" rel="stylesheet">
+    <style> /* Visualizing the Vision */
+body {background-image:url(/web/20150801043811im_/http://static.tumblr.com/mrgf7da/YEPne8eq2/color-bg.jpg); background-repeat: repeat-x;}
+nav.site-nav {background: -moz-linear-gradient(left,  rgba(255,255,255,1) 3%, rgba(255,255,255,1) 76%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(3%,rgba(255,255,255,1)), color-stop(76%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(255,255,255,1) 3%,rgba(255,255,255,1) 76%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(255,255,255,1) 3%,rgba(255,255,255,1) 76%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(255,255,255,1) 3%,rgba(255,255,255,1) 76%,rgba(255,255,255,0) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(255,255,255,1) 3%,rgba(255,255,255,1) 76%,rgba(255,255,255,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+border-bottom:none;}
+.site-nav {line-height:8px; position:relative; margin-top:-18px;}
+.site-nav a:hover {color:#b825f7; display:block;}
+.site-nav li:hover {color:#b825f7; display:block; background: -moz-linear-gradient(left,  rgba(199,251,228,1) 3%, rgba(226,253,241,1) 50%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(3%,rgba(199,251,228,1)), color-stop(50%,rgba(226,253,241,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(199,251,228,1) 3%,rgba(226,253,241,1) 50%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(199,251,228,1) 3%,rgba(226,253,241,1) 50%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(199,251,228,1) 3%,rgba(226,253,241,1) 50%,rgba(255,255,255,0) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(199,251,228,1) 3%,rgba(226,253,241,1) 50%,rgba(255,255,255,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7fbe4', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */}
+.posts {display:none;}
+.site-header-inner {color: #000; font-weight:400; font-size:18px; text-shadow: 1px 0px #fff; padding:10px 100px;}
+.site-header-inner a {color:#777; border-bottom:1px dotted #b825f7;}
+.site-header-inner a:hover {color:#000; border-bottom:1px dotted #b825f7;}
+footer.site-footer {width:100%; background-color: #fff; height:240px; border-top:4px solid #DDBBED; font-size:18px; letter-spacing:-.02em; text-align:right; background-image:url(/web/20150801043811im_/http://static.tumblr.com/mrgf7da/c32nea6d9/bitcoin-network.png); background-repeat: no-repeat; background-position:50% 50%;}
+.left {float:left; padding:10px 100px;}
+.left iFrame {background-color: #fff; border:1px solid #fff; border-radius:4px;}
+.right {float:right; padding:10px 100px;}
+.right img {opacity:.6; margin:-10px;}
+.right img:hover {opacity:.9;}
+a.reddit-icon img {position:relative; top:-5px; right:-5px;}
+img.btctalk {height:32px; position:relative; top:-5px; right:-12px;}
+i.fa.fa-twitter {position:relative; top:1px; right:-6px;}
+i.fa.fa-google-plus {position:relative; top:2px; right:-15px;}
+span#footerText {padding-right:15px;}
+::selection {background-color: #FFCEB8;}
+html {
+        color: #333;
+        font: 100%/1.5 Open Sans, Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+    }
+    a {
+        color: #999;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    a > h1,
+    a > h2,
+    a > h3 {
+        color: #333;
+    }
+    .btn {
+        -webkit-appearance: none;
+           -moz-appearance: none;
+                appearance: none;
+        border: 0;
+        border-radius: 0;
+        color: ;
+        cursor: pointer;
+        font: inherit;
+        -webkit-font-smoothing: inherit;
+        margin: 0;
+        outline: 0;
+        padding: .5rem 1.5rem;
+    }
+
+        color: #333;
+        display: table;
+        height: 50%;
+        
+        height: 100%;
+        
+        text-align: center;
+        width: 100%;
+    }
+    .site-header a,
+    .site-header h1,
+    .nav-bar h1 {
+        color: #333;
+    }
+    .nav-bar {
+        background: transparent;
+        height: 48px;
+        position: fixed;
+        top: 0; left: 0;
+        text-align: center;
+        -webkit-transition: background 0.3s;
+           -moz-transition: background 0.3s;
+                transition: background 0.3s;
+        width: 100%;
+        z-index: 9999;
+    }
+    .nav-bar button {
+        color: #333;
+    }
+    .nav-bar.active {
+        background: #FFF;
+        border-bottom: 1px solid #EEE;
+    }
+    
+    
+    .site-nav {
+        background: #FFF;
+        border-bottom: 1px solid #EEE;
+        display: none;
+        padding: 48px 1.5rem 0 1.5rem;
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%;
+        z-index: 999;
+    }
+    
+    .posts {
+        background: ;
+        padding: 1.5rem;
+    }
+    .photo {
+        max-width: ;
+    }
+    .photo-wrapper {
+        position: relative;
+    }
+    
+    .video {
+        max-width: 960px;
+    }
+    .photo img,
+    .photoset-grid {
+        display: block;
+        height: auto;
+        margin: 0 auto 1rem auto;
+        
+        width: 100%;
+                
+    }
+    .site-footer {
+        background: ;
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+    
+    
+    img.avatar {
+        display: inline;
+        margin: 0 .5rem 0 0;
+        width: auto;
+    }
+    .logo {
+        display: block;
+        margin: 0 auto 1rem auto;
+    }
+    </style>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=bitcoinsvision" />
+<script src="/web/20150801043811js_/http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=93bb152582dbb408afc826f52e6676b4"></script>
+
+<link rel="stylesheet" type="text/css" href="/web/20150801043811cs_/http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: /web/20150801043811/http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Bitcoins Vision" /><meta property="og:url" content="http://bitcoins.vision/?og=1" /><meta property="og:description" content="Bitcoin Information and Resources" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_d6f83595c59b_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=bitcoinsvision" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=bitcoinsvision" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="bitcoinsvision" /><meta name="twitter:description" content="Bitcoin Information and Resources" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=bitcoinsvision&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=bitcoinsvision&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=bitcoinsvision&amp;referrer=twitter-cards" />
+
+</head>
+
+<header class="site-header">
+        <div class="site-header-inner">
+            
+            
+            <a href="/web/20150801043811/http://bitcoins.vision/">
+                <h1>Bitcoins Vision</h1>
+            </a>
+            <br>On October 31, 2008, Satoshi Nakamoto <a href="/web/20150801043811/http://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html">published</a> a whitepaper on a new electronic cash system that's fully peer-to-peer, with no trusted third party, called Bitcoin. Bitcoin and blockchain technology are so advanced and forward thinking, that it is literally changing the world before our eyes.<br>
+            <br>
+            What is the vision for Bitcoin? This video below does a good job  of explaining that the technology behind crypto currencies such as Bitcoin will inevitably and radically change the role of traditional trusted parties such as banks, accountants, notaries, and governments. The possibilities are endless. We invite you to explore this new technology constructively and critically, and have an open discussion about the potential applications.<br><br>
+            <iframe id="ytPlayer" width="100%" height="450" src="/web/20150801043811if_/http://www.youtube.com/embed/YIVAluSL9SU?rel=0" frameborder="0" allowfullscreen></iframe><br>
+            <br>
+            <h1 id="how-to-buy-bitcoins">Where do I begin?</h1><br>
+            In order to obtain bitcoins, you need to first purchase them. Bitcoins are divisible, just like dollars. You don't need to buy a whole bitcoin to get started. You can buy fractions of a bitcoin. You can buy bitcoins from places like <a href="/web/20150801043811/http://coinbase.com/">Coinbase</a>, <a href="/web/20150801043811/http://circle.com/">Circle</a>, or <a href="/web/20150801043811/https://cubits.com/">Cubits</a>. It might depend on where you are located too, on where you purchase your bitcoins. BitcoinX provides an updated list of <a href="/web/20150801043811/http://bitcoinx.io/">bitcoin exchanges</a> to buy from, including a list by <a href="/web/20150801043811/http://bitcoinx.io/country-index">country location</a>. If you don't want to buy bitcoins from an online exchange, you can purchase them in person using an "over-the-counter" platform such as <a href="/web/20150801043811/https://localbitcoins.com/">LocalBitcoins</a>.<br>
+            <br>
+            <h1 id="how-to-store-bitcoins">How do I keep my bitcoins safe?</h1><br>
+            Securing your bitcoins is paramount. Just like cash, you want to keep your money safe. This means moving it off of a bitcoin exchange after purchasing them, and storing them in a bitcoin wallet. There are many different kinds of wallets such as <a href="/web/20150801043811/http://blockchain.info/">Blockchain</a>, <a href="/web/20150801043811/http://bitcoinarmory.com/">Armory</a>, or <a href="/web/20150801043811/http://electrum.org/">Electrum</a>. The choice is yours on where you store your bitcoins; we suggest that you try out a couple before making a final decision on what works best for you. Instead of using a wallet, you have the option of keeping your bitcoins in <a href="/web/20150801043811/http://bitzuma.com/posts/a-gentle-introduction-to-bitcoin-cold-storage/">cold storage</a>.<br>
+            <br>
+            <h1 id="bitcoin-merchant-solutions">Are you a merchant?</h1><br>
+            If so, you can accept bitcoins from your customers for payment. Merchants can begin receiving the benefits of bitcoin's low transaction fees and fast transaction times in just a few steps. It's easy, using existing merchant platforms like <a href="/web/20150801043811/https://bitpay.com/">BitPay</a> or <a href="/web/20150801043811/https://www.coinbase.com/merchants">Coinbase</a> for online purchases, or the <a href="/web/20150801043811/https://play.google.com/store/apps/details?id=info.blockchain.merchant&amp;hl=en">Blockchain</a> app for in-store POS transactions. If you're looking for a physical bitcoin machine for your store, <a href="/web/20150801043811/https://coinkite.com/faq/terminal">Coinkite</a> has exchange terminals.<br>
+            <br>
+            <h1 id="how-to-spend-bitcoins">Where can I spend bitcoins?</h1><br>
+            Spending bitcoins has become much easier over the years as bitcoin is being more widely adopted and services are being created to make using bitcoins simple. An easy place to search for places to spend bitcoins is <a href="/web/20150801043811/https://spendabit.co/">Spendabit</a>. If you're looking for a brick and mortar store, check out <a href="/web/20150801043811/http://coinmap.org/">Coinmap</a>. Or, use <a href="/web/20150801043811/http://www.gyft.com/">Gyft</a> to purchase a gift card with bitcoins!<br>
+            <br>
+            <h1 id="get-bitcoin-news">Where can I follow bitcoin news?</h1><br>
+            There are a few bitcoin news sites, but these are highly recommended: <a href="/web/20150801043811/http://coinfire.cf/">Coinfire</a>, <a href="/web/20150801043811/http://cointelegraph.com/">CoinTelegraph</a>, <a href="/web/20150801043811/http://newsbtc.com/">NewsBTC</a>, <a href="/web/20150801043811/http://bitcoinmagazine.com/">Bitcoin Magazine</a>, and <a href="/web/20150801043811/http://www.coindesk.com/">CoinDesk</a>. Alternatively, you can monitor bitcoin news on Twitter, for quick updates using this <a href="/web/20150801043811/https://twitter.com/davidshares/lists/bitcoin">Bitcoin List</a>. <br>
+            <br>
+            <h1 id="how-devs-can-help">I'm a developer, how can I help bitcoin?</h1><br>
+            The bitcoin developer community is growing, and is always looking for devs to help build new and exciting ways to use bitcoin and the blockchain. You can help by contributing to the <a href="/web/20150801043811/https://github.com/bitcoin/bitcoin">bitcoin core</a> protocol. Ask technical questions on <a href="/web/20150801043811/http://bitcoin.stackexchange.com/">Stack Exchange</a>, or look up technical information on the <a href="/web/20150801043811/http://bitcoin.it/">Bitcoin Wiki</a>. You can also subscribe to the bitcoin dev <a href="/web/20150801043811/http://sourceforge.net/p/bitcoin/mailman/">email discussion list</a>. Or, just build your own bitcoin related tool, application, or service.
+            
+            
+            
+            
+            <ul class="social">
+                
+                
+                
+                
+                
+               
+                
+               
+               
+                
+                
+                
+            </ul>
+            
+            
+            
+        </div><!-- /.site-header-inner -->
+    </header>
+    <div class="nav-bar">
+        <div class="nav-bar-inner">
+            
+            <a href="/web/20150801043811/http://bitcoins.vision/">
+                <h1>Bitcoins Vision</h1>
+            </a>
+            
+            <button class="toggle-menu" type="button">
+                <i class="fa fa-bars"></i>
+            </button>
+            
+        </div>
+    </div>
+    <nav class="site-nav">
+        <ul class="pages">
+        <li><a href="#how-to-buy-bitcoins">How to buy bitcoins</a></li>
+        <li><a href="#how-to-store-bitcoins">How to store bitcoins</a></li>
+        <li><a href="#bitcoin-merchant-solutions">Bitcoin merchant solutions</a></li>
+        <li><a href="#how-to-spend-bitcoins">How to spend bitcoins</a></li>
+        <li><a href="#get-bitcoin-news">Get bitcoin news</a></li>
+        <li><a href="#how-devs-can-help">How developers can help</a></li>
+        <li><a href="#more-info">Bitcoin Price and Social Media</a>
+            
+            
+        </ul>
+    </nav>
+    
+    <section class="posts">
+        <div class="posts-inner">
+            
+        </div><!-- /.posts-inner -->
+    </section><!-- /.posts -->
+    <footer id="more-info" class="site-footer">
+    <div class="left"><iframe src="/web/20150801043811if_/http://bitcoinx.io/price-widget.php" frameborder="0" height="100" scrolling="no"></iframe></div><div class="right"><span id="footerText">BITCOINS.VISION 2014–2015</span><br><a href="mailto:info@bitcoins.vision"><i class="fa fa-envelope-o"></i></a><a class="reddit-icon" href="/web/20150801043811/http://reddit.com/r/bitcoin"><img src="/web/20150801043811im_/http://static.tumblr.com/mrgf7da/Emqne8ewg/bitcoin-reddit.png"></a><a href="/web/20150801043811/https://bitcointalk.org/"><img class="btctalk" src="/web/20150801043811im_/http://static.tumblr.com/mrgf7da/GGYne8eub/bitcoin-talk-forum.png"></a><a href="/web/20150801043811/https://plus.google.com/communities/115591368588047305300"><i class="fa fa-google-plus"></i></a><a href="/web/20150801043811/http://twitter.com/bitcoin"><i class="fa fa-twitter"></i></a></div>
+    
+        
+        
+    </footer>
+    <script src="/web/20150801043811js_/http://static.tumblr.com/fk7a7ro/6pcn48tuo/jquery-2.1.0.min.js"></script>
+    <script src="/web/20150801043811js_/http://static.tumblr.com/7esz91z/rUin4yx1g/photosetgrid1.0.1.js"></script>
+
+<body>
